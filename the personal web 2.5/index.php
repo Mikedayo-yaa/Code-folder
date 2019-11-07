@@ -24,7 +24,7 @@
 		<div class="row justify-content-center text-center">
 			<div class="col-10 py-5">
 				<h2>Welcome to Mike,s World wide website</h2>
-				<p class="lead">All that we are is the result of what we have thought.<br>Martin Luther king jr</p><a class="btn btn-purple btn-lg" href="https://nl.wikipedia.org/wiki/Martin_Luther_King" target="_blank">CLICK</a>
+				<p class="lead">All that we are is the result of what we have thought.<br>Martin Luther king jr king</p><a class="btn btn-purple btn-lg" href="https://nl.wikipedia.org/wiki/Martin_Luther_King" target="_blank">CLICK</a>
 			</div>
 		</div>
 	</div>
