@@ -1,0 +1,43 @@
+body{
+    background-color:forestgreen;
+}
+.mbBoxh1 {
+    border-bottom: 4px solid #c070c3;
+    box-shadow: 0 15px 25px gray;
+}
+h1.mbH1 {
+    margin: 3px;
+    padding: 2px;
+    color: #c070c3;
+    font-size: 50px;
+    text-shadow: 0 0 5px #992dbc, 0 0 7px #969696;
+}
+a.mbP1 {
+    position:absolute;
+    left:670px;
+    top:1px;
+    margin: 3px;
+    padding: 2px;
+    color: #c070c3;
+    font-size: 50px;
+    text-shadow: 0 0 5px #992dbc, 0 0 7px #969696;
+    
+}
+.mbGallery {
+   
+    margin:50px 50px;
+}
+    .mbGallery img {
+        position: relative;
+        right: -190px;
+        transition: 1s;
+        padding: 15px;
+        width: 455px;
+        height: 300px;
+        border: 5px solid gray;
+        box-shadow: 0 5px 15px gray;
+    }
+.mbGallery img:hover{
+    filter:grayscale(100%) ;
+    transform: scale(1.1);
+}

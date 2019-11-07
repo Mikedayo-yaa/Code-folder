@@ -1,0 +1,271 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body {
+    background-color:beige;
+    font-family: Arial;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+main {
+    
+    position: inherit;
+    top: -3px;
+    background-color: white;
+    border: 3px solid black;
+}
+ div.mbHeader {
+    
+     background-color:white;
+     border:3px solid black;
+     height:120px; 
+     top:-10px;
+ }
+
+ div.mbHeadertext {
+     color:royalblue;
+     font-size:50px;
+     position:relative;
+     left:250px;
+ }
+img.mbImg1 {
+    position: relative;
+    height: 60px;
+    width: 80px;
+    top: -55px;
+}
+img.mbImg2 {
+    position: relative;
+    height: 200px;
+    width: 320px;
+    left: 400px;
+    top:5px;
+    border: 3px solid black;
+}
+
+ div.mbContent1 {
+     position:absolute;
+     top:127px;
+    left:7px;
+     height:60px;
+     width:330px;
+     border:0px solid black;
+    
+ }
+
+div.mbContenttext1 {
+    color: #ff6a00;
+    margin: 2px;
+    padding: 2px;
+}
+div.mbContenttext11 {
+    margin: 2px;
+    padding: 2px;
+   font-size:22px;
+    
+}
+
+div.mbContenttext12 {
+    margin: 2px;
+    padding: 2px;
+}
+
+div.mbContenttext21 {
+    margin: 2px;
+    padding: 2px;
+    border: 3px solid black;
+    width: 340px;
+    position:relative;
+    top:-135px;
+    
+}
+div.mbContenttext22 {
+    margin: 2px;
+    padding: 2px;
+    border: 0px solid black;
+    width: 320px;
+    position: relative;
+    top:-117px;
+    left:400px;
+    font-size:10px;
+}
+
+
+div.mbContent2 {
+        position: relative;
+        height: 245px;
+        width: 800px;
+        border: 2px solid black;
+        right: 0px;
+    }
+
+div.mbContenttext2 {
+    color: #ff6a00;
+}
+
+
+div.mbContent3 {
+    
+    position: relative;
+    
+    border: 2px solid black;
+  
+    width:800px;
+    height:240px;
+}
+div.mbContenttext3 {
+   
+    margin: 2px;
+    padding: 2px;
+    border: 0px solid black;
+    width: 330px;
+    font-size:22px;
+    position: relative;
+}
+div.mbContenttext31 {
+    
+    margin: 2px;
+    padding: 2px;
+    border: 3px solid black;
+    width: 330px;
+    position: relative;
+    top:5px;
+}
+
+div.mbContenttext32 {
+   
+    margin: 2px;
+    padding: 2px;
+    border: 3px solid black;
+    width: 330px;
+    position: relative;
+    top: 8px;
+    height:105px;
+}
+
+div.mbContenttext33 {
+    
+    margin: 2px;
+    padding: 2px;
+    border: 0px solid black;
+    width: 320px;
+    position: relative;
+    top: -14px;
+    height: 32px;
+    left :398px;
+    font-size:10px;
+}
+
+
+img.mbImg3 {
+    position: relative;
+    height: 190px;
+    width: 320px;
+    left: 400px;
+    top: -243px;
+    border: 3px solid black;
+}
+
+
+
+div.mbContent4 {
+    position: relative;
+    height: 455px;
+    width: 400px;
+    border: 2px solid black;
+   
+}
+div.mbContenttext4 {
+    position: relative;
+    font-size:20px;
+    width: 350px;
+    border: 0px solid black;
+    margin:3px;
+    padding:3px;
+}
+div.mbContenttext41 {
+    position: relative;
+    height: 100px;
+    width: 320px;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
+}
+div.mbContenttext42 {
+    position: relative;
+    height: 32px;
+    width: 390px;
+    border: 0px solid black;
+    margin: 3px;
+    padding: 3px;
+    font-size:10px;
+}
+
+img.mbImg4 {
+    position: relative;
+    height: 232px;
+    width: 400px;
+    border: 3px solid black;
+}
+div.mbContent5 {
+    position: absolute;
+    height: 455px;
+    width: 400px;
+    border: 2px solid black;
+    top: 608px;
+    left: 403px;
+}
+div.mbContenttext51 {
+    position: relative;
+    width: 320px;
+    border: 0px solid black;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+}
+div.mbContenttext52 {
+    position: relative;
+    height: 100px;
+    width: 320px;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
+}
+
+div.mbContenttext53 {
+   
+    border: 0px solid black;
+    margin: 3px;
+    padding: 3px;
+    font-size:10px;
+}
+
+img.mbImg5 {
+    position: relative;
+    left:-3px;
+    height: 232px;
+    width: 400px;
+    border: 3px solid black;
+}
+div.mbFooter {
+    position: relative;
+    background-color: darkolivegreen;
+    border: 2px solid black;
+    height: 80px;
+}
+div.mbFootertext {
+    margin:3px;
+    padding:3px;
+    color:white;
+
+}
+div.mbFootertext1 {
+    margin: 3px;
+    padding: 3px;
+    color: white;
+}
+

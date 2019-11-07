@@ -1,0 +1,41 @@
+<DOCTYPE html>
+    <html>
+<head>
+    <title>DJ Rob Hukema</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <meta charset="utf-8" />
+    
+</head>
+<body>
+    <main>
+        <div class="titlebox">
+            <div class="titletext">Title</div>
+        </div>
+        
+        <div class="contentbox">
+        <div class="contenttext">content</div>
+        </div>
+            
+        
+        
+            <div class="contentbox2">
+        <div class="contenttext2">content2</div>
+            </div>
+            
+        
+        
+            <div class="sidebar">
+        <div class="sidebartext">sidebar</div>
+            </div>
+            
+        
+        
+            <div class="footer">
+        <div class="footertext">footer</div>
+            </div>
+            
+        
+    </main>
+</body>
+</html>
+</DOCTY

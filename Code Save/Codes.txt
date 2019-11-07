@@ -1,0 +1,71 @@
+CREATE TABLE users (
+	user_id int(11) AUTO_INCREMENT PRIMARY KEY not null,
+    user_first varchar(256) not null,
+     user_last varchar(256) not null,
+     user_email varchar(256) not null,
+     user_uid varchar(256) not null,
+     user_pwd varchar(256) not null
+);
+INSERT INTO users (user_first, user_last,user_email, user_uid, user_pwd,)
+	VALUES ('Daniel', 'Nielsen', 'usertuts@gmail.com' 'Admin' 'test123');
+
+
+
+INDEX PHP FILE MAAR NIET WERKENDE ERROR
+Fatal error: Uncaught Error: Call to undefined function mysql_stmt_init() 
+in C:\Xamppmap\htdocs\includes\signup.inc.php:17 Stack trace: #0 {main} 
+thrown in C:\Xamppmap\htdocs\includes\signup.inc.php on line 17 
+
+code bellow:
+
+INDEX.php
+
+  <?php
+        $data = "Daniel";
+        //Created a template
+        $sql = "SELECT * FROM users WHERE user_uid=?;";
+        //Created a prepared statement
+        $stmt = mysqli_stmt_init($conn);
+        //prepare the prepare statement
+        if (!mysqli_stmt_prepare($stmt,$sql)) {
+          echo "SQL statement failed";
+    }        else {
+             //bind parameters to the placeholder
+             mysqli_stmt_bind_param( $stmt, "s",$data);
+             //Run parameters inside database
+             mysqli_stmt_execute($stmt);
+                $result = msqli_stmt_get_result($stmt);
+
+                while($row = mysqli_fetch_assoc($result)) {
+                 echo $row['user_uid'] . "<br>";
+    }
+    }
+       
+
+
+  ?>
+
+
+signip.inc.php
+
+  <?php
+  
+  include_once  'dbh.inc.php';
+
+  $first = mysqli_real_escape_string($conn, $_POST['first']);
+  $last = mysqli_real_escape_string($conn,$_POST['last']);
+  $email = mysqli_real_escape_string($conn,$_POST['email']); 
+  $uid= mysqli_real_escape_string($conn,$_POST['uid']);
+  $pwd = mysqli_real_escape_string($conn,$_POST['pwd']);
+
+ 
+
+
+
+   $sql = "INSERT INTO users ('user_firest','last','user_email','user_uid', 'user_pwd)
+        VALUES ('$first' '$last', '$email', '$uid', 'pwd');";
+        mysqli_query($conn,$sql);
+
+        header("Location: ../index.php?signup=succes");
+    
+

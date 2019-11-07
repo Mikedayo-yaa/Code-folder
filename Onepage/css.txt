@@ -1,0 +1,127 @@
+html, body {
+    margin:0px;
+    padding:0px;
+    height:100%;
+    text-align:center;}
+section {min-height:100%;}
+a{text-decoration:none;}
+li{list-style-type:none;}
+
+h1, h2, h3, a { font-family: 'Roboto', sans-serif; font-weight:500; color:#494949; text-transform: uppercase;}
+h2{color:#5d7177;}
+h3{font-size:40px; padding-top:8%; margin-bottom:5px;}
+h4, p{font-family: 'Roboto' ,serif;color:#494949}
+
+hr {width: 30px; height: 3px;background: #494949; border: 0; margin:0 auto 40px auto;}
+#mblogo, li, img {
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+
+/*Header*************************************/
+header{
+    width:100%;
+    height:65px;
+    position:fixed;
+    top:-3px;
+    left:0;
+    background:white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+#mbLogo {
+    width:140px;
+    float:left;
+    margin:10px 0 0 50px;
+}
+
+#mbLogo:hover{
+    opacity:0.5;
+
+}
+
+#mbLogo img{
+    width:100%;
+    position:relative;
+    top:-10px;
+}
+header nav {
+    float:right;
+    margin:10px 50px 0 0;
+
+}
+
+header nav ul li{
+    float:left;
+    margin:16px;
+}
+header nav ul li a{
+    font-size:16px;
+}
+header nav ul li:hover {
+    padding-top: 5px;
+}
+/*Home*************************************/
+#mbHome {
+    background:url(images/bg1.jpg);
+    background-position:center center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+#mbHome h1 {
+    margin:50px auto 0 auto;
+    font-size: 110px;
+}
+
+#mbHome h2 {
+    margin:0 auto 0 auto;
+    font-size: 25px;
+
+}
+#mbHome img {
+    width:32px;
+    margin-top:150px;
+    opacity:0.7;
+}
+#mbHome img:hover {
+    opacity:1;
+}
+/*About*************************************/
+
+#mbAbout img {
+    width: 240px;
+}
+
+#mbAbout img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+#mbAbout h4 {
+    font-size:25px;
+}
+#mbAbout p {
+    width:700px;
+    margin:0 auto 0 auto;
+}
+/*About*************************************/
+#mbWork{
+    background-color:#f0f0f0;
+}
+#mbProjects {
+    width:900px;
+    margin:0 auto 0 auto;
+}
+
+#mbProjects ul {
+    padding: 0;
+}
+
+ #mbProjects ul li {
+        width: 33.3%;
+        float: left;
+        margin-bottom: 15px;
+    }
